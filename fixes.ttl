@@ -1,0 +1,10 @@
+# This file contains whatever needed to be temporarily fixed for Dataspecer to work properly
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+skos:prefLabel rdfs:range rdf:langString .
+skos:altLabel rdfs:range rdf:langString .
+skos:hiddenLabel rdfs:range rdf:langString .
+skos:definition rdfs:range rdf:langString .
+owl:Thing rdfs:subClassOf rdfs:Resource .
