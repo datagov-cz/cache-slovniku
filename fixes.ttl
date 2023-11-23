@@ -8,4 +8,4 @@ skos:prefLabel rdfs:range rdf:langString .
 skos:altLabel rdfs:range rdf:langString .
 skos:hiddenLabel rdfs:range rdf:langString .
 skos:definition rdfs:range rdf:langString .
-owl:Thing rdfs:subClassOf rdfs:Resource .
+skos:Concept rdfs:subClassOf rdfs:Resource.
