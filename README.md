@@ -3,3 +3,4 @@ Slouží jako obraz RDF slovníků, které nejsou korektně zpřístupněny dle 
 - [RDF](rdf.ttl)
 - [RDFS](rdfs.ttl)
 - [Dublin Core Terms](dublin_core_terms.ttl)
+- [FOAF](foaf.ttl)
