@@ -2,6 +2,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+# Potřebná dědičnost - nelze dát do VL
 <https://slovník.gov.cz/legislativní/sbírka/106/1999/pojem/produkt-či-služba-využívající-otevřená-data> rdfs:subClassOf dcat:Resource.
 
 # A překlady použitých webových věcí
