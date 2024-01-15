@@ -1,3 +1,22 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 <https://slovník.gov.cz/legislativní/sbírka/106/1999/pojem/produkt-či-služba-využívající-otevřená-data> rdfs:subClassOf dcat:Resource.
+
+# A překlady použitých webových věcí
+dcterms:title rdfs:label "Název"@cs .
+dcterms:description rdfs:label "Popis"@cs .
+dcterms:available rdfs:label "Dostupné"@cs.
+dcterms:modified rdfs:label "Změněno"@cs.
+dcterms:creator rdfs:label "Tvůrce"@cs.
+owl:Thing rdfs:label "Věc"@cs .
+foaf:page rdfs:label "Stránka"@cs .
+foaf:depiction rdfs:label "Vyobrazení"@cs .
+foaf:Person rdfs:label "Člověk"@cs .
+foaf:Organization rdfs:label "Organizace"@cs .
+foaf:givenName rdfs:label "Křestní jméno"@cs .
+foaf:familyName rdfs:label "Příjmení"@cs .
+foaf:name rdfs:label "Jméno"@cs .
+foaf:homepage rdfs:label "Domovská stránka"@cs .
+dcterms:isReferencedBy rdfs:label "Je odkazováno z"@cs .
